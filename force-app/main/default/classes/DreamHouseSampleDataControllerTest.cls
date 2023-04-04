@@ -23,6 +23,7 @@ private class DreamHouseSampleDataControllerTest {
         System.assertEquals( 0, [ SELECT count() FROM Broker__c ] );
 
         //comment 1
+        //comment2
     }
 
 }
