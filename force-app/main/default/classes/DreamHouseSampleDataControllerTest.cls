@@ -18,7 +18,8 @@ private class DreamHouseSampleDataControllerTest {
         DreamHouseSampleDataController.deleteAll();
 
         Test.stopTest();
-
+        
+        //comment2
         System.assertEquals( 0, [ SELECT count() FROM Property__c ] );
         System.assertEquals( 0, [ SELECT count() FROM Broker__c ] );
         //comment 1
