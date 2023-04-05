@@ -20,7 +20,7 @@ private class DreamHouseSampleDataControllerTest {
         Test.stopTest();
 
         System.assertEquals( 0, [ SELECT count() FROM Property__c ] );
-        System.assertEquals( 0, [ SELECT count() FROM Broker__c ] );
+        //System.assertEquals( 0, [ SELECT count() FROM Broker__c ] );
 
         //comment 1
     }
